@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceLiveScoring", "WcfServiceLiveScoring\WcfServiceLiveScoring.csproj", "{569DD304-F8C7-4A92-B35A-64DBE89B33FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestScoreService", "UnitTestScoreService\UnitTestScoreService.csproj", "{50E379E9-C23E-4CBF-AD13-781508C9DB98}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{569DD304-F8C7-4A92-B35A-64DBE89B33FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{569DD304-F8C7-4A92-B35A-64DBE89B33FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{569DD304-F8C7-4A92-B35A-64DBE89B33FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{569DD304-F8C7-4A92-B35A-64DBE89B33FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E379E9-C23E-4CBF-AD13-781508C9DB98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E379E9-C23E-4CBF-AD13-781508C9DB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E379E9-C23E-4CBF-AD13-781508C9DB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E379E9-C23E-4CBF-AD13-781508C9DB98}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F86A7043-AED4-4271-9BB0-34F1097160F1}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\UnitTestScoreService\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\UnitTestScoreService\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\UnitTestScoreService\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\UnitTestScoreService\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\UnitTestScoreService\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\UnitTestScoreService\bin\Debug\fr\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\UnitTestScoreService\bin\Debug\UnitTestScoreService.dll
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\UnitTestScoreService\bin\Debug\UnitTestScoreService.pdb
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\UnitTestScoreService\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\UnitTestScoreService\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\UnitTestScoreService\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\UnitTestScoreService\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\UnitTestScoreService\obj\Debug\UnitTestScoreService.csprojResolveAssemblyReference.cache
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\UnitTestScoreService\obj\Debug\UnitTestScoreService.csproj.CoreCompileInputs.cache
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\UnitTestScoreService\obj\Debug\UnitTestScoreService.csproj.CopyComplete
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\UnitTestScoreService\obj\Debug\UnitTestScoreService.dll
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\UnitTestScoreService\obj\Debug\UnitTestScoreService.pdb

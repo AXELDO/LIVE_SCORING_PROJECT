@@ -1,0 +1,15 @@
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\WcfServiceLiveScoring\bin\WcfServiceLiveScoring.pdb
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\WcfServiceLiveScoring\bin\EntityFramework.dll
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\WcfServiceLiveScoring\bin\DataAccessLibrary.pdb
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\WcfServiceLiveScoring\bin\EntityFramework.xml
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\WcfServiceLiveScoring\obj\Debug\WcfServiceLiveScoring.csprojResolveAssemblyReference.cache
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\WcfServiceLiveScoring\obj\Debug\WcfServiceLiveScoring.csproj.CoreCompileInputs.cache
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\WcfServiceLiveScoring\obj\Debug\WcfServiceLiveScoring.csproj.CopyComplete
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\WcfServiceLiveScoring\obj\Debug\WcfServiceLiveScoring.pdb
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\WcfServiceLiveScoring\bin\WcfServiceLiveScoring.exe.config
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\WcfServiceLiveScoring\bin\WcfServiceLiveScoring.exe
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\WcfServiceLiveScoring\obj\Debug\WcfServiceLiveScoring.exe
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\WcfServiceLiveScoring\bin\DataAccessLibrary.dll
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\WcfServiceLiveScoring\bin\EntityFramework.SqlServer.dll
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\WcfServiceLiveScoring\bin\DataAccessLibrary.dll.config
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\WcfServiceLiveScoring\WcfServiceLiveScoring\bin\EntityFramework.SqlServer.xml
