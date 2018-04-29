@@ -1,0 +1,387 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TypeScriptToolsVersion>2.6</TypeScriptToolsVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\js\node_modules\%40types\**" />
+    <Compile Remove="wwwroot\js\node_modules\commonjs\**" />
+    <Compile Remove="wwwroot\js\node_modules\core-js\**" />
+    <Compile Remove="wwwroot\js\node_modules\system\**" />
+    <Compile Remove="wwwroot\js\node_modules\zone.js\**" />
+    <Content Remove="wwwroot\js\node_modules\%40types\**" />
+    <Content Remove="wwwroot\js\node_modules\commonjs\**" />
+    <Content Remove="wwwroot\js\node_modules\core-js\**" />
+    <Content Remove="wwwroot\js\node_modules\system\**" />
+    <Content Remove="wwwroot\js\node_modules\zone.js\**" />
+    <EmbeddedResource Remove="wwwroot\js\node_modules\%40types\**" />
+    <EmbeddedResource Remove="wwwroot\js\node_modules\commonjs\**" />
+    <EmbeddedResource Remove="wwwroot\js\node_modules\core-js\**" />
+    <EmbeddedResource Remove="wwwroot\js\node_modules\system\**" />
+    <EmbeddedResource Remove="wwwroot\js\node_modules\zone.js\**" />
+    <None Remove="wwwroot\js\node_modules\%40types\**" />
+    <None Remove="wwwroot\js\node_modules\commonjs\**" />
+    <None Remove="wwwroot\js\node_modules\core-js\**" />
+    <None Remove="wwwroot\js\node_modules\system\**" />
+    <None Remove="wwwroot\js\node_modules\zone.js\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="wwwroot\js\Angular\Component\UserComponent.ts" />
+    <Content Remove="wwwroot\js\Angular\Model\User.ts" />
+    <Content Remove="wwwroot\js\Angular\Module\MainModuleLibrary.ts" />
+    <Content Remove="wwwroot\js\Startup.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\js\node_modules\%40angular\core\core.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\core\package.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\core\testing.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\core\testing\index.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\core\testing\package.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\core\testing\src\async.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\core\testing\src\async_test_completer.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\core\testing\src\before_each.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\core\testing\src\component_fixture.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\core\testing\src\fake_async.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\core\testing\src\private_export_testing.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\core\testing\src\testing.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\core\testing\src\test_bed.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\core\testing\src\test_compiler.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\forms\forms.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\forms\package.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\package.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\platform-browser-dynamic.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\src\platform-browser-dynamic.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\src\platform_providers.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\src\private_export.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\src\resource_loader\resource_loader_cache.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\src\resource_loader\resource_loader_impl.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\src\version.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\testing.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\testing\index.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\testing\package.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\testing\src\dom_test_component_renderer.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\testing\src\private_export_testing.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\testing\src\testing.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser\animations.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser\animations\index.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser\animations\package.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser\package.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser\platform-browser.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser\testing.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser\testing\index.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser\testing\package.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser\testing\src\browser.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser\testing\src\browser_util.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\%40angular\platform-browser\testing\src\testing.metadata.json" />
+    <Content Include="wwwroot\js\node_modules\systemjs\package.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="2.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="2.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="2.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="2.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="2.0.2" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\node_modules\%40angular\core\%40angular\core.es5.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\core\%40angular\core.es5.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\core\%40angular\core.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\core\%40angular\core.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\core\%40angular\core\testing.es5.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\core\%40angular\core\testing.es5.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\core\%40angular\core\testing.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\core\%40angular\core\testing.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\core\bundles\core-testing.umd.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\core\bundles\core-testing.umd.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\core\bundles\core-testing.umd.min.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\core\bundles\core-testing.umd.min.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\core\bundles\core.umd.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\core\bundles\core.umd.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\core\bundles\core.umd.min.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\core\bundles\core.umd.min.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\core\README.md" />
+    <None Include="wwwroot\js\node_modules\%40angular\forms\%40angular\forms.es5.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\forms\%40angular\forms.es5.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\forms\%40angular\forms.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\forms\%40angular\forms.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\forms\bundles\forms.umd.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\forms\bundles\forms.umd.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\forms\bundles\forms.umd.min.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\forms\bundles\forms.umd.min.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\forms\README.md" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\%40angular\platform-browser-dynamic.es5.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\%40angular\platform-browser-dynamic.es5.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\%40angular\platform-browser-dynamic.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\%40angular\platform-browser-dynamic.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\%40angular\platform-browser-dynamic\testing.es5.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\%40angular\platform-browser-dynamic\testing.es5.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\%40angular\platform-browser-dynamic\testing.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\%40angular\platform-browser-dynamic\testing.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\bundles\platform-browser-dynamic-testing.umd.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\bundles\platform-browser-dynamic-testing.umd.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\bundles\platform-browser-dynamic-testing.umd.min.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\bundles\platform-browser-dynamic-testing.umd.min.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\bundles\platform-browser-dynamic.umd.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\bundles\platform-browser-dynamic.umd.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\bundles\platform-browser-dynamic.umd.min.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\bundles\platform-browser-dynamic.umd.min.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\README.md" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\%40angular\platform-browser.es5.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\%40angular\platform-browser.es5.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\%40angular\platform-browser.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\%40angular\platform-browser.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\%40angular\platform-browser\animations.es5.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\%40angular\platform-browser\animations.es5.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\%40angular\platform-browser\animations.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\%40angular\platform-browser\animations.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\%40angular\platform-browser\testing.es5.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\%40angular\platform-browser\testing.es5.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\%40angular\platform-browser\testing.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\%40angular\platform-browser\testing.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\bundles\platform-browser-animations.umd.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\bundles\platform-browser-animations.umd.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\bundles\platform-browser-animations.umd.min.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\bundles\platform-browser-animations.umd.min.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\bundles\platform-browser-testing.umd.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\bundles\platform-browser-testing.umd.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\bundles\platform-browser-testing.umd.min.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\bundles\platform-browser-testing.umd.min.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\bundles\platform-browser.umd.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\bundles\platform-browser.umd.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\bundles\platform-browser.umd.min.js" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\bundles\platform-browser.umd.min.js.map" />
+    <None Include="wwwroot\js\node_modules\%40angular\platform-browser\README.md" />
+    <None Include="wwwroot\js\node_modules\core-js\client\shim.min.js" />
+    <None Include="wwwroot\js\node_modules\reflect-metadata\Reflect.js" />
+    <None Include="wwwroot\js\node_modules\requirejs\require.js" />
+    <None Include="wwwroot\js\node_modules\systemjs\dist\system-production.js" />
+    <None Include="wwwroot\js\node_modules\systemjs\dist\system-production.js.map" />
+    <None Include="wwwroot\js\node_modules\systemjs\dist\system-production.src.js" />
+    <None Include="wwwroot\js\node_modules\systemjs\dist\system-production.src.js.map" />
+    <None Include="wwwroot\js\node_modules\systemjs\dist\system.js" />
+    <None Include="wwwroot\js\node_modules\systemjs\dist\system.js.map" />
+    <None Include="wwwroot\js\node_modules\systemjs\dist\system.src.js" />
+    <None Include="wwwroot\js\node_modules\systemjs\dist\system.src.js.map" />
+    <None Include="wwwroot\js\node_modules\systemjs\LICENSE" />
+    <None Include="wwwroot\js\node_modules\systemjs\README.md" />
+    <None Include="wwwroot\js\node_modules\zone.js\dist\zone.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <TypeScriptCompile Include="wwwroot\js\Angular\Component\UserComponent.ts" />
+    <TypeScriptCompile Include="wwwroot\js\Angular\Model\User.ts" />
+    <TypeScriptCompile Include="wwwroot\js\Angular\Module\MainModuleLibrary.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\core.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\public_api.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\animation\animation_metadata_wrapped.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\animation\dsl.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\application_init.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\application_module.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\application_ref.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\application_tokens.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\change_detection.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\change_detection\change_detection.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\change_detection\change_detection_util.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\change_detection\change_detector_ref.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\change_detection\constants.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\change_detection\differs\default_iterable_differ.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\change_detection\differs\default_keyvalue_differ.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\change_detection\differs\iterable_differs.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\change_detection\differs\keyvalue_differs.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\change_detection\pipe_transform.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\codegen_private_exports.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\console.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\core.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\core_private_export.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\debug\debug_node.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\di.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\di\forward_ref.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\di\injection_token.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\di\injector.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\di\metadata.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\di\provider.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\di\reflective_errors.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\di\reflective_injector.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\di\reflective_key.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\di\reflective_provider.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\errors.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\error_handler.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\event_emitter.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\i18n\tokens.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\linker.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\linker\compiler.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\linker\component_factory.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\linker\component_factory_resolver.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\linker\element_ref.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\linker\ng_module_factory.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\linker\ng_module_factory_loader.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\linker\query_list.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\linker\system_js_ng_module_factory_loader.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\linker\template_ref.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\linker\view_container_ref.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\linker\view_ref.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\metadata.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\metadata\di.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\metadata\directives.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\metadata\lifecycle_hooks.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\metadata\ng_module.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\metadata\view.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\platform_core_providers.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\profile\profile.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\profile\wtf_impl.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\reflection\platform_reflection_capabilities.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\reflection\reflection.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\reflection\reflection_capabilities.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\reflection\reflector.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\reflection\reflector_reader.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\reflection\types.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\render.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\render\api.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\security.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\testability\testability.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\type.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\util.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\util\decorators.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\util\lang.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\version.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\view\element.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\view\errors.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\view\index.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\view\ng_content.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\view\provider.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\view\pure_expression.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\view\query.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\view\refs.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\view\services.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\view\text.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\view\types.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\view\util.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\view\view.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\view\view_attach.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\zone.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\src\zone\ng_zone.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\testing.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\testing\index.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\testing\src\async.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\testing\src\async_test_completer.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\testing\src\before_each.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\testing\src\component_fixture.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\testing\src\fake_async.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\testing\src\metadata_override.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\testing\src\private_export_testing.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\testing\src\testing.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\testing\src\test_bed.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\core\testing\src\test_compiler.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\forms.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\public_api.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\abstract_control_directive.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\abstract_form_group_directive.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\checkbox_value_accessor.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\control_container.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\control_value_accessor.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\default_value_accessor.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\error_examples.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\form_interface.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\ng_control.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\ng_control_status.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\ng_form.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\ng_model.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\ng_model_group.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\ng_no_validate_directive.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\normalize_validator.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\number_value_accessor.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\radio_control_value_accessor.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\range_value_accessor.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\reactive_directives\form_control_directive.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\reactive_directives\form_control_name.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\reactive_directives\form_group_directive.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\reactive_directives\form_group_name.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\reactive_errors.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\select_control_value_accessor.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\select_multiple_control_value_accessor.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\shared.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\template_driven_errors.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\directives\validators.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\forms.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\form_builder.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\form_providers.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\model.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\validators.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\forms\src\version.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\platform-browser-dynamic.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\src\platform-browser-dynamic.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\src\platform_providers.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\src\private_export.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\src\resource_loader\resource_loader_cache.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\src\resource_loader\resource_loader_impl.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\src\version.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\testing.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\testing\index.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\testing\src\dom_test_component_renderer.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\testing\src\private_export_testing.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser-dynamic\testing\src\testing.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\animations.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\animations\index.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\animations\public_api.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\animations\src\animations.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\animations\src\animation_renderer.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\animations\src\module.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\animations\src\private_export.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\animations\src\providers.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\platform-browser.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\public_api.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\browser.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\browser\browser_adapter.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\browser\generic_browser_adapter.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\browser\location\browser_platform_location.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\browser\location\history.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\browser\meta.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\browser\server-transition.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\browser\testability.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\browser\title.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\browser\tools\browser.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\browser\tools\common_tools.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\browser\tools\tools.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\dom\debug\by.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\dom\debug\ng_probe.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\dom\dom_adapter.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\dom\dom_renderer.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\dom\dom_tokens.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\dom\events\dom_events.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\dom\events\event_manager.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\dom\events\hammer_gestures.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\dom\events\key_events.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\dom\shared_styles_host.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\platform-browser.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\private_export.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\security\dom_sanitization_service.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\security\html_sanitizer.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\security\style_sanitizer.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\security\url_sanitizer.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\src\version.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\testing.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\testing\index.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\testing\src\browser.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\testing\src\browser_util.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\node_modules\%40angular\platform-browser\testing\src\testing.d.ts" />
+    <TypeScriptCompile Include="wwwroot\js\Startup.ts" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\js\Startup\" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,56 @@
+﻿@model IEnumerable<WebAppLiveScoring.Models.Score>
+
+@{
+    ViewData["Title"] = "Tous les matchs";
+}
+<h2>Tous les matchs</h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MatchDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LocalName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LocalScore)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VisitName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.VisitScore)
+            </th>
+
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MatchDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LocalName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LocalScore)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VisitName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.VisitScore)
+            </td>
+            <td>
+                <a asp-controller="Scores" asp-action="Details"  asp-route-id="@item.ScoreID">Details</a> |
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>

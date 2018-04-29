@@ -1,0 +1,37 @@
+{
+  "name": "js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Customer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commonjs": "0.0.1",
+    "requirejs": "^2.3.5",
+    "@angular/common": "4.0.0",
+    "@angular/compiler": "4.0.0",
+    "@angular/core": "4.0.0",
+    "@angular/forms": "4.0.0",
+    "@angular/http": "4.0.0",
+    "@angular/platform-browser": "4.0.0",
+    "@angular/platform-browser-dynamic": "4.0.0",
+    "@angular/router": "4.0.0",
+    "@angular/upgrade": "4.0.0",
+    "angular-in-memory-web-api": "0.3.2",
+    "bootstrap": "^3.3.6",
+    "core-js": "^2.4.1",
+    "http-server": "^0.10.0",
+    "reflect-metadata": "^0.1.3",
+    "rxjs": "^5.4.1",
+    "systemjs": "0.19.27",
+    "zone.js": "^0.8.4"
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.13",
+    "@types/core-js": "^0.9.42",
+    "typescript": "2.3.4"
+  }
+}

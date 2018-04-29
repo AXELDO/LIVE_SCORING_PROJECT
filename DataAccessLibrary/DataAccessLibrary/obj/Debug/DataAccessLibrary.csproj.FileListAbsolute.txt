@@ -1,0 +1,12 @@
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\DataAccessLibrary\DataAccessLibrary\bin\Debug\DataAccessLibrary.pdb
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\DataAccessLibrary\DataAccessLibrary\bin\Debug\EntityFramework.dll
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\DataAccessLibrary\DataAccessLibrary\bin\Debug\EntityFramework.SqlServer.dll
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\DataAccessLibrary\DataAccessLibrary\bin\Debug\EntityFramework.xml
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\DataAccessLibrary\DataAccessLibrary\bin\Debug\EntityFramework.SqlServer.xml
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\DataAccessLibrary\DataAccessLibrary\obj\Debug\DataAccessLibrary.csprojResolveAssemblyReference.cache
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\DataAccessLibrary\DataAccessLibrary\obj\Debug\DataAccessLibrary.pdb
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\DataAccessLibrary\DataAccessLibrary\obj\Debug\DataAccessLibrary.csproj.CoreCompileInputs.cache
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\DataAccessLibrary\DataAccessLibrary\obj\Debug\DataAccessLibrary.csproj.CopyComplete
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\DataAccessLibrary\DataAccessLibrary\bin\Debug\DataAccessLibrary.dll.config
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\DataAccessLibrary\DataAccessLibrary\bin\Debug\DataAccessLibrary.dll
+D:\OLYMPP\PROJET_PERSO\LIVE_SCORING\DataAccessLibrary\DataAccessLibrary\obj\Debug\DataAccessLibrary.dll

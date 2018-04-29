@@ -1,0 +1,38 @@
+﻿@model WebAppLiveScoring.Models.Score
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2> @Html.DisplayFor(model => model.LocalName) @Html.DisplayFor(model => model.LocalScore) - @Html.DisplayFor(model => model.VisitScore) @Html.DisplayFor(model => model.VisitName)  </h2>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+               Date Commentaire
+            </th>
+            <th>
+               Commentaire
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.Comments)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CommentDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CommentText)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<div>
+    <a asp-action="Index">Liste des matchs</a>
+</div>

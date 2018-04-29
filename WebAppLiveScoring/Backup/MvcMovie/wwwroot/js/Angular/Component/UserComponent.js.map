@@ -1,0 +1,1 @@
+{"version":3,"file":"UserComponent.js","sourceRoot":"","sources":["UserComponent.ts"],"names":[],"mappings":";;;;;;;;AACA,qBAAqB;AACrB,sCAAoC;AACpC,sCAAyC;AAEzC,qBAAqB;AASrB;IAPA;QAQI,gBAAW,GAAS,IAAI,WAAI,EAAE,CAAC;IAEnC,CAAC;IAHY,aAAa;QAPzB,gBAAS,CAAC;YACP,QAAQ,EAAE,SAAS;YACnB,WAAW,EAAE,4BAA4B;SAE5C,CAAC;QAEF,yCAAyC;OAC5B,aAAa,CAGzB;IAAD,oBAAC;CAAA,AAHD,IAGC;AAHY,sCAAa"}

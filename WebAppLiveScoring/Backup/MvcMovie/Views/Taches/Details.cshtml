@@ -1,0 +1,42 @@
+﻿@model MvcMovie.Models.Tache
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Tache</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DateDebut)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateDebut)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.DateFin)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.DateFin)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.NomTache)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NomTache)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ID">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
