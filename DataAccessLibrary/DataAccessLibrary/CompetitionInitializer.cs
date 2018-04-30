@@ -9,7 +9,7 @@ using System.Data.Entity;
 
 namespace DataAccessLibrary
 {
-    internal class CompetitionInitializer : CreateDatabaseIfNotExists<CompetitionContext>
+    internal class CompetitionInitializer : DropCreateDatabaseAlways<CompetitionContext>
     {
         protected override void Seed(CompetitionContext context)
         {
